@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Train Listing</title>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">TrainBook</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="train_search.html">Train Search</a>
+                <a class="nav-item nav-link" href="train_listing.html">Train Listing</a>
+                <a class="nav-item nav-link" href="booking.html">Booking</a>
+                <a class="nav-item nav-link" href="tickets.html">Manage Booking</a>
+                <a class="nav-item nav-link" href="contactus.html">Contact Us</a>
+                <a class="nav-item nav-link" href="sign_in.html">Sign In</a>
+                <a class="nav-item nav-link" href="sign_up.html">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <div class="container mt-3">
+        <h2>Train Listings</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Train Name</th>
+                    <th>Departure Time</th>
+                    <th>Duration</th>
+                    <th>Seats Available</th>
+                    <th>Travel Date</th>
+                    <th>Route</th>
+                    <th>Class Availability</th>
+                </tr>
+            </thead>
+            <tbody id="train-data">
+                <!-- Train data will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="train_listing.js"></script>
+</body>
+</html>
